@@ -1,0 +1,16 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+"boto3" = "==1.4.4"
+requests = "==2.14.2"
+twython = "==3.6.0"
+pytest = "==3.4.0"
+Pillow = "==5.0.0"
+
+[dev-packages]
+
+[requires]
+python_version = "3.7"
