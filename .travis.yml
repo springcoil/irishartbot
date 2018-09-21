@@ -1,0 +1,16 @@
+language: python
+python:
+- 3.6
+install:
+- pip install .
+- pip install -r requirements.txt
+- pip install awscli
+- pip install twython -t lambda/
+before_script: export PYTHONPATH=$PYTHONPATH:$(pwd)
+script:
+- bash build_env.sh
+- bash ecr_credentials.sh
+- bash lambda_deploy.sh
+branches:
+  only:
+    - master

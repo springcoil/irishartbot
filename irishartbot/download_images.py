@@ -125,12 +125,12 @@ def upload_json_to_s3(directory):
 
 
 def main():
-    #data = get_json()
-    #files = save_json(data)
-    #links = get_image_links(data)
-    #download_images(links)
-    upload_images_to_s3(settings.ASSET_PATH)
-    upload_json_to_s3(settings.ASSET_PATH)
+    data = get_json()
+    files = save_json(data)
+    links = get_image_links(data)
+    download_images(links)
+    #upload_images_to_s3(settings.ASSET_PATH)
+    #upload_json_to_s3(settings.ASSET_PATH)
 
 if __name__ == "__main__":
     main()
