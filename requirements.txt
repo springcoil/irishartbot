@@ -1,5 +1,5 @@
 boto3==1.4.4
-requests==2.14.2
+requests>=2.20.0
 Pillow==5.0.0
 setuptools==38.5.1
 twython==3.6.0
