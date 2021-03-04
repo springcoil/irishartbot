@@ -1,6 +1,6 @@
 boto3==1.4.4
 requests>=2.20.0
-Pillow==5.0.0
+Pillow==8.1.1
 setuptools==38.5.1
 twython==3.6.0
 pytest==3.4.0
