@@ -8,7 +8,7 @@ name = "pypi"
 requests = "==2.14.2"
 twython = "==3.6.0"
 pytest = "==3.4.0"
-Pillow = "==5.0.0"
+Pillow = "==9.0.1"
 
 [dev-packages]
 
